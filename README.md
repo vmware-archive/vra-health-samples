@@ -1,11 +1,15 @@
 
-
 # vra-health-samples
 
 ## Overview
 
+This contains a Python Wheel Project that can be executed from the vRealize Health Service.
+
 ## Try it out
 
+To Build:
+python setup.py bdist_wheel
+cp ./dist/pythonpoc-0.1.0-py2.py3-none-any.whl ../pythonhost/src/main/resources/Scripts/
 ### Prerequisites
 
 * Prereq 1
