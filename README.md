@@ -17,16 +17,9 @@ This contains a Python Wheel Project that can be executed from the vRealize Heal
 1. python setup.py bdist_wheel
 2. upload ./dist/vrealize_health_samples-1.0.0.dev0-py3-none-any.whl to the vRealize Health Service
 
-## Documentation
-
-## Releases & Major Branches
-
 ## Contributing
 
-The vra-health-samples project team welcomes contributions from the community. If you wish to contribute code and you have not
-signed our contributor license agreement (CLA), our bot will update the issue when you open a Pull Request. For any
-questions about the CLA process, please refer to our [FAQ](https://cla.vmware.com/faq). For more detailed information,
-refer to [CONTRIBUTING.md](CONTRIBUTING.md).
+The vra-health-samples project team welcomes contributions from the community. Before you start working with vra-health-samples, please read our [Developer Certificate of Origin](https://cla.vmware.com/dco). All contributions to this repository must be signed as described on that page. Your signature certifies that you wrote the patch or have the right to pass it on as an open-source patch. For more detailed information, refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
