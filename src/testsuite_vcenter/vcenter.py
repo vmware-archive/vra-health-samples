@@ -43,7 +43,7 @@ class vCenterTestSuite(TestSuiteBase):
     def check_username(self,
                        vcusername
                        ):
-        assert vcusername == 'administrator@vsphere.local', "expected 'root' but got " + vcusername
+        assert vcusername == 'administrator@vsphere.local', "expected 'administrator@vsphere.local' but got " + vcusername
         return True
 
     @test_name("Check vCenter Connectivity")
