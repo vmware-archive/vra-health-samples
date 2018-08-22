@@ -9,7 +9,7 @@ This contains a Python Wheel Project that can be executed from the vRealize Heal
 ### Prerequisites
 
 * vRealize Automation 7.4 or above
-* Python 3.6 or above for local development
+* Python 3.5.x for local development
 * vRealize Health Service SDK
 
 ### Build & Run
