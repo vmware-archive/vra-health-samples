@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+src/testsuite_your_package/__init__.py
+src/testsuite_your_package/__main__.py
+src/testsuite_your_package/testsuite.py
+src/your_packages_name.egg-info/PKG-INFO
+src/your_packages_name.egg-info/SOURCES.txt
+src/your_packages_name.egg-info/dependency_links.txt
+src/your_packages_name.egg-info/top_level.txt
+src/your_packages_name.egg-info/zip-safe

@@ -2,11 +2,9 @@
 # vra-health-samples
 
 ## Overview
-This contains a collection of Python Wheel Projects that can be executed from the vRealize Health Service.  Each directory contains a sammple project which can be built and uploaded to the Health Service.
+This contains a Python Wheel Project that can be executed from the vRealize Health Service
 
-## Contents
-template : an empty project which acts a a base for creating new health checks
-simple-vcenter : a simple project which connects to a vCenter instance.
+## Try it out
 
 ### Prerequisites
 
@@ -14,13 +12,18 @@ simple-vcenter : a simple project which connects to a vCenter instance.
 * Python 3.5.x for local development
 * vRealize Health Service SDK
 
+### Build & Run
+
+1. python setup.py bdist_wheel
+2. upload ./dist/vrealize_health_samples-1.0.0.dev0-py3-none-any.whl to the vRealize Health Service
+
 ## Contributing
 
 The vra-health-samples project team welcomes contributions from the community. Before you start working with vra-health-samples, please read our [Developer Certificate of Origin](https://cla.vmware.com/dco). All contributions to this repository must be signed as described on that page. Your signature certifies that you wrote the patch or have the right to pass it on as an open-source patch. For more detailed information, refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-The MIT license (the â€œLicenseâ€) set forth below applies to all parts of the VMware vRealize Health Service Code Samples project.  You may not use this file except in compliance with the License.Â 
+The MIT license (the “License”) set forth below applies to all parts of the VMware vRealize Health Service Code Samples project.  You may not use this file except in compliance with the License. 
 
 MIT License
 
