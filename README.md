@@ -20,7 +20,7 @@ The vra-health-samples project team welcomes contributions from the community. B
 
 ## License
 
-The MIT license (the â€œLicenseâ€) set forth below applies to all parts of the VMware vRealize Health Service Code Samples project.  You may not use this file except in compliance with the License.Â 
+The MIT license (the "License") set forth below applies to all parts of the VMware vRealize Health Service Code Samples project.  You may not use this file except in compliance with the License.Â 
 
 MIT License
 
