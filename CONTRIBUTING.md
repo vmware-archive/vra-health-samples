@@ -8,6 +8,7 @@ The vra-health-samples project team welcomes contributions from the community. B
 
 This is a rough outline of what a contributor's workflow looks like:
 
+- Fork the repository, https://help.github.com/articles/fork-a-repo/
 - Create a topic branch from where you want to base your work
 - Make commits of logical units
 - Make sure your commit messages are in the proper format (see below)
@@ -17,7 +18,8 @@ This is a rough outline of what a contributor's workflow looks like:
 Example:
 
 ``` shell
-git remote add upstream https://github.com/vmware/vra-health-samples.git
+git clone https://github.com/YOUR-USERNAME/vra-health-samples.git
+git remote add upstream https://github.com/vmwaresamples/vra-health-sampless.git
 git checkout -b my-new-feature master
 git commit -a
 git push origin my-new-feature
