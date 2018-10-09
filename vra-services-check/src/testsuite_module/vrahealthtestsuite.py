@@ -1,8 +1,8 @@
-# VMware vrealize Automation Python SDK Community Samples
+# VMware vRealize Automation Python SDK Community Samples
 #
 # Copyright 2018 VMware, Inc.  All rights reserved				
 
-# The MIT license (the â€œLicenseâ€�) set forth below applies to all parts of the VMware vRealize Health Service Code Samples project.  You may not use this file except in compliance with the License.Â 
+# The MIT license (the “License”) set forth below applies to all parts of the VMware vRealize Health Service Code Samples project.  You may not use this file except in compliance with the License. 
 
 # MIT License
 
@@ -11,7 +11,7 @@
 
 # The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE..
 
 ################################################################################################
 #
@@ -101,7 +101,7 @@ class vRAUpgradeTestSuite(TestSuiteBase):
     @test_description("Checks that core vRA Services are Registered Post Upgrade")
     @test_access_level(AccessLevel.NORMAL.value)
     @test_severity(Severity.NORMAL.value)
-    @test_remediation("https://www.vmware.com/products/vrealize-automation.html")
+    @test_remediation("https://docs.vmware.com/en/vRealize-Automation/7.5/com.vmware.vra.install.upgrade.doc/GUID-6A8CFE2E-4685-48AF-BC4E-20F816C46A21.html?hWord=N4IghgNiBcIG4CUCCACATgUwOYEsDOALhpgCYp7Fw4DGGeIAvkA")
     @test
     def check_registered_services(self,vraaddress,vrausername,vrapassword,vratenant,numservices):
 	                              
@@ -153,7 +153,7 @@ class vRAUpgradeTestSuite(TestSuiteBase):
     @test_description("Checks that expected number of Distinct vRA Endpoints is available")
     @test_access_level(AccessLevel.NORMAL.value)
     @test_severity(Severity.NORMAL.value)
-    @test_remediation("https://www.vmware.com/products/vrealize-automation.html")
+    @test_remediation("https://docs.vmware.com/en/vRealize-Automation/7.5/com.vmware.vra.prepare.use.doc/GUID-5B87344A-F9AD-4AD2-A7A7-B8C34074E59E.html?hWord=N4IghgNiBcIG4CcCmkCWAvJACJA7AJgA4D2quALiAL5A")
     @test
     def check_distinct_endpoints(self, vraaddress, vrausername, vrapassword, vratenant, numendpoints):
         
@@ -201,7 +201,7 @@ class vRAUpgradeTestSuite(TestSuiteBase):
     @test_description("Checks that expected number of Reservation Types in a Tenant is present")
     @test_access_level(AccessLevel.NORMAL.value)
     @test_severity(Severity.NORMAL.value)
-    @test_remediation("https://www.vmware.com/products/vrealize-automation.html")
+    @test_remediation("https://docs.vmware.com/en/vRealize-Automation/7.5/com.vmware.vra.prepare.use.doc/GUID-7F97AB08-7C2F-4462-AE9F-2B39C00F0E39.html?hWord=N4IghgNiBcIG4CcCmkCWAvJACZBnJCcYALqgPYB2IAvkA")
     @test
     def check_distinct_reservation_types(self, vraaddress, vratenantusername, vratenantpassword, vranondeftenant,numrestypes):
         
